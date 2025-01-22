@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:black_wool"
+        },
+        "title": {"translate":"Isolation"},
+        "description": {"translate":"Stepped into true void"},
+        "frame": "challenge"
+    },
+    "parent": "att2:adventure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 100
+                },
+    "criteria": {
+        "space": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

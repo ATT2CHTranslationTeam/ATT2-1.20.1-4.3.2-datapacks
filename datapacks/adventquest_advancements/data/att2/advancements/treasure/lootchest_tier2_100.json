@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Accessible Chest Fanatic"},
+        "description": {"translate":"Open 100 Accessible Chests"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/lootchest_tier2_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "lootchest_tier2_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

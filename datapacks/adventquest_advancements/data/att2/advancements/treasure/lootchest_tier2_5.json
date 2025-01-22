@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": {"translate":"Accessible Chest Neophyte"},
+        "description": {"translate":"Open 5 Accessible Chests"}
+    },
+    "parent": "att2:treasure/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 250
+                },
+    "criteria": {
+        "lootchest_tier2_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

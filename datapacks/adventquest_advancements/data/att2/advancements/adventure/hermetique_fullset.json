@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_helmet"
+        },
+        "title": {"translate":"Hermetique full set"},
+        "description": {"translate":"Complete the Hermetique mythical set"},
+        "frame": "challenge",
+        "hidden":true
+    },
+    "parent": "att2:adventure/myt",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
+                },
+    "criteria": {
+        "hermetique_fullset": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

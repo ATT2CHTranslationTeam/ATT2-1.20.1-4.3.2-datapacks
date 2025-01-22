@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Unseen Chest Connoisseur"},
+        "description": {"translate":"Open 100 Unseen Chests"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/lootchest_tier8_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "lootchest_tier8_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

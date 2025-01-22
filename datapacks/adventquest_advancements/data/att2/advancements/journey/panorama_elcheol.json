@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {"translate":"Elchéol Panorama"},
+        "description": {"translate":"Discover the panorama of Elchéol mountains"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_eolorion",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
+                },
+    "criteria": {
+        "panorama_elcheol": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_ore"
+        },
+        "title": {"translate":"Ëarndhel Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Ëarndhel"},
+        "frame": "goal"
+    },
+    "parent": "att2:journey/discover_earndhel",
+    "rewards": {
+        "function": "att2:advancement/exploit_3",
+        "experience": 500
+                },
+    "criteria": {
+        "checkpoint_earndhel": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "title": {"translate":"Magnate"},
+        "description": {"translate":"Raise 25000 Chronotons"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/chronotons_10000",
+        "rewards": {
+            "function": "att2:advancement/exploit_40",
+            "experience": 25000
+    },
+    "criteria": {
+        "chronotons_25000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
